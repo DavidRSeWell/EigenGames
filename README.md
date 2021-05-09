@@ -16,7 +16,7 @@ Algorithm 1 seems to be at least returning a set of ortho eigenvectors.
 
 Can install with
 ```angular2html
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Then run
