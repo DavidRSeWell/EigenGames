@@ -65,7 +65,7 @@ class EigenGame:
 
         v_i = sample_spherical(1, d)  # want d x 1
         lr = 0.001
-        t_i = 1000  # TEMP
+        t_i = 1000  # TODO - This is calculated explicitly in paper using norm of gradient
         # precompute rewards upfront for each vector of parents
         rewards_j = [np.matmul(X, v_j) for v_j in parents]
         for i in range(t_i):
