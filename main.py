@@ -1,5 +1,3 @@
-import numpy as np
-
 from EigenGame.data import MnistData
 from EigenGame.eigengame import EigenGame
 
